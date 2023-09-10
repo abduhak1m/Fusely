@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'Os';
+    src: url(./font/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'Display';
+    src: url(./font/PlayfairDisplay-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header start */
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 1200px;
+    background-color: white;
+    top: 0;
+    padding: 10px 0;
+}
+
+.ul {
+    display: flex;
+    gap: 15px;
+}
+
+.link {
+    display: inline-block;
+    font-family: 'Os';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.8px;
+    color: #9893A3;
+    border-bottom: 1px solid white;
+    transition: 0.3s all linear;
+}
+
+.link:hover {
+    color: #2F2E41;
+    border-color:darkblue;
+}
+
+.button {
+    padding: 15px 25px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Os';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+#header_nextbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header_leftbox, .header_rightbox {
+    width: 45%;
+}
+
+.header_title {
+    font-family: 'Display';
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.header_text {
+    font-family: 'Os';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9893A3;
+    margin: 10px 0;
+}
+/* header finish */
+
+/* navbar start */
+.navbar {
+    padding-top: 150px;
+}
+
+.navbarbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* navbar finish */
+
+/* exam start */
+.exam {
+    padding-top: 150px;
+}
+
+.exambox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.examright, .examleft {
+    width: 45%;
+}
+
+.exam_title {
+    font-family: 'Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2F2E41;
+}
+
+.exam_text {
+    font-family: 'Os';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9893A3;
+    margin: 10px 0;
+}
+
+.span {
+    font-family: 'Os';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: #2F2E41;
+}
+/* exam finish */
+
+/* creative start */
+#creative {
+    padding-top: 150px;
+}
+
+.cebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.celeft, .ceright {
+    width: 45%;
+}
+
+.cetitle {
+    font-family: 'Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2F2E41;
+}
+
+.cetext {
+    font-family: 'Os';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #9893A3;
+    margin: 10px 0;
+}
+/* creative finish */
+
+/* team start */
+.team {
+    padding-top: 150px;
+}
+
+.teambox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teamleft, .teamright {
+    width: 45%;
+}
+
+.teamtitle {
+    font-family: 'Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2F2E41;
+}
+
+.teamtext {
+    font-family: 'Os';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9893A3;
+    margin: 10px 0;
+}
+/* team finish */
+
+/* plan start */
+#plan {
+    padding-top: 150px;
+}
+
+.plantitle {
+    font-family: 'Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+    color: #2F2E41;
+}
+
+.planbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.plan_smallbox {
+    width: 30%;
+    padding: 40px 88px 40px;
+    background: #ECEBFF4D;
+    text-align: center;
+}
+
+.plans_ftitle {
+    font-family: 'Os';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717082;
+}
+
+.plan_pricebox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.pricetitle {
+    color: #2F2E41;
+    font-family: 'Os';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+}
+
+.price_time {
+    font-family: 'Os';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 56px;
+    color: #2F2E41;
+}
+
+.plans_text {
+    font-family: 'Os';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 7px;
+}
+
+.blue_button {
+    border: 1px solid #6C63FF;
+    padding: 15px 25px;
+    color: #6C63FF;
+    display: inline-block;
+    font-family: 'Os';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: white;
+}
+/* plan finish */
+
+/* blog start */
+
+#blog {
+    padding-top: 150px;
+}
+
+.blog_flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogtitle {
+    font-family: 'Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    color: #2F2E41;
+}
+
+.blogbox {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.blog_smallbox {
+    width: 30%;
+}
+
+.blog_boxtitle {
+    font-family: 'Os';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2F2E41;
+}
+
+.blog_boxtext {
+    font-family: 'Os';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9893A3;
+    margin: 15px 0;
+}
+
+/* blog finish */
+
+/* contact start */
+#contact {
+    padding: 150px 0;
+}
+
+.contactbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forcontact {
+    color: #717082;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Os';
+}
+
+.fusely {
+    border: 1px solid #6C63FF;
+    background-color: white;
+    color: #6C63FF;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-family: 'Os';
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* contact finish */
+
+/* Footer start */
+
+/* Footer finish */
+
+/* for Js */
+
+/* bu responsivlikdagi Menu uchun va plan qismida katta ko'k bo'lib chiqishi ucun edi va + karusel ga */
+
+/* for Js */
